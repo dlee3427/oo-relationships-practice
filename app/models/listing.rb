@@ -9,7 +9,7 @@ class Listing
     end
 
     def guests 
-        Listing.all.select {|listing| listing.}
+        Listing.all.select {|listing| listing.guest }
     end
     
     def trips 
